@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Caixa</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <html lang="pt-br">
+    <head>
+        <title> Caixa </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>            
+    <section class="compra">
+        <h1> Caixa </h1>
+        <h2> Registro Compras:</h2>
+
+        <div class="row home">
+            <!-- form -->            
+                <form id="formulario" class="inputs">
+                    <div class="col-9 col-t-9 col-d-9">
+                        <input type="text" id="cnpjFornecedor" placeholder="CNPJ Fornecedor">
+                        <input type="text" id="tipoCompra" placeholder="Tipo da Compra">
+                        <input type="text" id="cdCompra" placeholder="Código do Produto">
+                        <input type="text" id="dataCompra" placeholder="Data da Compra">
+                        <input type="text" id="valorCompra" placeholder="Valor Compra">
+                    </div>
+
+                    <div class="col-3 col-t-3 col-d-3">
+                        <button type="submit" id="btnEnviar" class="botao"><img src="https://thumb.ibb.co/jPoi1c/enviar.png" title="Enviar"></button>
+                        <button type="button" onClick="cancelar()" id="btnCancelar" class="botao"><img src="https://image.ibb.co/iB57SH/cancel.png" title="Cancelar"></button>
+                        <button type="button" onClick="atualizar()" id="btnAlterar" class="botao"><img src="https://thumb.ibb.co/mLJSSH/ok.png" title="Confirmar"></button>
+                    </div>
+
+                </form>
+
+                <div class="row table">
+                    <!-- table -->
+                    <div class="col-12">         
+                        <div class="tabela" id="boxTable"></div>
+                    </div>                 
+                </div>
+        </div>
+
+        </section>
+
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    </body>
+</html>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+</body>
+
+</html>
